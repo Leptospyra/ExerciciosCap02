@@ -1,10 +1,8 @@
 public class ProgramProjectsCap02 {
     public static void main(String[] args){
-        //lateralEsquerda();
-        //meio();
-        //lateralDireita();
         //programa1();
-        programa2();
+        //programa2();
+        programa3();
     }
 
     public static void programa1() {
@@ -70,5 +68,15 @@ public class ProgramProjectsCap02 {
         System.out.println("|  vv  |");
     }
     //fim do programa 2
+
+    public static void programa3() {
+        for (int i = 6; i >= 1; i--) {
+            //homem no degrau
+            System.out.println("  o  ******");
+            System.out.println(" /|\\ *      ");
+            System.out.println(" / \\ *      ");
+        }
+    }
+
 }
 
